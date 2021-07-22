@@ -3,12 +3,11 @@
 using namespace std;
 
 int main() {
-	ios::sync_with_stdio(false);
-	cin.tie(NULL);
 	int C = 0;
 	int n = 0;
 	int y = 0, x = 0;
 	cin >> C;
+	
 
 	while (C-- > 0) {
 		cin >> n;
@@ -25,12 +24,16 @@ int main() {
 				int n_y = y + Arr[y][x];
 				int n_x = x + Arr[y][x];
 				if (DP[y][x] != 0) {
-					if (n_y < n) DP[n_y][x] = 1;
-					if (n_x < n) DP[y][n_x] = 1;
+					if (n_y > 0 && n_y < n) {
+						DP[n_y][x] += Arr[y][x];
+					}
+					if (n_x > 0 && n_x < n) {
+						DP[y][n_x] += Arr[y][x];
+					}
 				}
 			}
 		}
-		if (DP[n - 1][n - 1] > 0) cout << "YES";
+		if (DP[n-1][n-1] > 0) cout << "YES";
 		else cout << "NO";
 		cout << "\n";
 	}
