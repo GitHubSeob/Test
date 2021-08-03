@@ -1,4 +1,4 @@
-# 문제풀이
+## 문제풀이
 https://githubseob.tistory.com/7
 
 ## 문제출처
