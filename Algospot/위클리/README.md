@@ -1,14 +1,7 @@
 ## 문제풀이      
 https://githubseob.tistory.com/6  
-
-
-
 </br>
 </br>
-</br>
-
-
-
 ## 문제출처
 https://programmers.co.kr/learn/courses/30/lessons/82612  
 </br>
