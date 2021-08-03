@@ -1,4 +1,4 @@
-## 문제풀이  
+## 문제풀이      
 https://githubseob.tistory.com/6  
 ## 문제출처
 https://programmers.co.kr/learn/courses/30/lessons/82612  
